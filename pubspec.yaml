@@ -1,0 +1,46 @@
+name: assignment
+description: "A new Flutter project using Dio + Retrofit + Freezed"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+
+  # 🧠 Dependency Injection
+  get_it: ^7.7.0
+  injectable: ^2.3.2
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  intl: ^0.19.0
+  palette_generator: ^0.3.3
+  neopop: ^1.0.2
+  logger: ^2.3.0
+  cached_network_image: ^3.3.0
+  image: ^4.5.4
+  flutter_spinkit: ^5.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  retrofit_generator: ^9.7.0
+  injectable_generator: ^2.4.2
+
+
+  # ✨ Optional for better code formatting
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
