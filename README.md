@@ -1,16 +1,95 @@
-# assignment
+🎨 flutter_image_palette
 
-A new Flutter project.
+A Flutter app that fetches random photos from the internet and generates a beautiful, animated gradient background using the image’s dominant color.
+Smooth transitions. Cached images. BLoC architecture. Built for performance.
 
-## Getting Started
+📹 Demo Video
 
-This project is a starting point for a Flutter application.
+ 
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/user-attachments/assets/6eb95a1d-3b71-441e-9c27-64e7c9ffb971
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+(Add your YouTube link here later)
+
+✨ Features
+
+🔥 Fetch random high-resolution images
+
+🎨 Automatically extract dominant colors
+
+🌈 Beautiful animated gradient background transitions
+
+🖼 Smooth image fade-in animations
+
+⚡ Blazing-fast network caching
+
+📱 Fully responsive layout
+
+🧱 Clean architecture (BLoC + Domain Layer + DI)
+
+🚀 Tech Stack
+Layer	Technology
+UI	Flutter, Material 3
+State Management	BLoC (flutter_bloc)
+Networking	Dio
+Image Cache	Cached Network Image
+Animations	AnimatedOpacity, Custom Gradient Background
+Dependency Injection	Injectable / GetIt
+ 
+ 
+
+🏗 Installation
+1️⃣ Clone the repository
+git clone https://github.com/Vickykumarverma-11/flutter_image_palette.git
+cd flutter_image_palette
+
+2️⃣ Install dependencies
+flutter pub get
+
+3️⃣ Run the app
+flutter run
+
+🧪 Running Tests
+
+(Add tests later if needed)
+
+flutter test
+
+📝 Usage
+
+Tap the Another button to fetch a new random image
+
+The app extracts its dominant color
+
+A smooth gradient animation updates the background
+
+
+🔧 Configuration
+
+You can change the image source (e.g., Unsplash API) inside your GetRandomImage use case.
+
+🐞 Troubleshooting
+❌ New image not loading?
+
+You may be offline or Unsplash blocked the request.
+The app will automatically show the previous image + a warning toast.
+
+❌ DioException?
+
+Check your internet connection.
+
+👨‍💻 Author
+
+Vicky Kumar Verma
+📧 vermavickykumar25@gmail.com
+
+⭐ Support
+
+If you like this project, please ⭐ the repo.
+Your support motivates more open-source work!
+
+📄 License
+
+MIT License © 2025 Vicky Kumar Verma
