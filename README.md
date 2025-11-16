@@ -11,8 +11,6 @@ https://github.com/user-attachments/assets/6eb95a1d-3b71-441e-9c27-64e7c9ffb971
 
 
 
-(Add your YouTube link here later)
-
 ✨ Features
 
 🔥 Fetch random high-resolution images
@@ -89,7 +87,3 @@ Vicky Kumar Verma
 
 If you like this project, please ⭐ the repo.
 Your support motivates more open-source work!
-
-📄 License
-
-MIT License © 2025 Vicky Kumar Verma
